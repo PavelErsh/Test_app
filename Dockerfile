@@ -7,4 +7,6 @@ COPY requirements.txt /web_app/requirements.txt
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+ENV PYTHONPATH=/web_app
+
+CMD ["uvicorn", "web_app.main:app", "--host", "0.0.0.0", "--port", "8000"]
