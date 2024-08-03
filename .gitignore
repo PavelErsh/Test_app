@@ -1,5 +1,6 @@
-__pycache__/bomba.cpython-36.pyc
+__pycache__/
 .DS_Store
 .idea
 venv
 test
+myenv
