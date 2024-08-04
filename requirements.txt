@@ -1,7 +1,7 @@
-fastapi
-uvicorn
-motor
-redis
-pydantic
+fastapi==0.112.0
+uvicorn==0.30.5
+motor==3.5.1
+redis==5.0.8
+pydantic==2.8.2
 aiogram==3.0.0
-aiohttp
+aiohttp==3.10.0
